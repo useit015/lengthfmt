@@ -1,0 +1,23 @@
+{
+  "name": "lengthfmt",
+  "version": "0.1.0",
+  "description": "Sort JavaScript and TypeScript imports, object properties, and React dependencies by line length.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "lengthfmt": "bin/lengthfmt.js"
+  },
+  "files": ["bin", "src"],
+  "scripts": {
+    "format": "node bin/lengthfmt.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "8.71.1",
+    "eslint": "10.12.0",
+    "eslint-plugin-perfectionist": "5.12.1"
+  }
+}
