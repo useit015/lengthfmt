@@ -2,6 +2,10 @@
   "name": "lengthfmt",
   "version": "0.1.0",
   "description": "Sort JavaScript and TypeScript imports, object properties, and React dependencies by line length.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/useit015/lengthfmt.git"
+  },
   "type": "module",
   "private": true,
   "bin": {

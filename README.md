@@ -14,11 +14,26 @@ buildEditor({
 });
 ```
 
-## Run from source
+## Install
 
 Requires Node.js 20.19+, 22.13+, or 24+ in the version ranges in `package.json`.
 
 ```sh
+npm install --global git+https://github.com/useit015/lengthfmt.git
+```
+
+Then run inside your project:
+
+```sh
+lengthfmt src
+lengthfmt --check src
+```
+
+## Run from source
+
+```sh
+git clone https://github.com/useit015/lengthfmt.git
+cd lengthfmt
 npm install
 node bin/lengthfmt.js --help
 ```
